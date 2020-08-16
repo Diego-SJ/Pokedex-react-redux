@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 100px;
+  height: 110px;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(to right, #e2f3ff 50%, #9dd8ff);

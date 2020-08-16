@@ -14,12 +14,12 @@ const ExtraInfo = ({ pokemon, specie, loading }) => {
           <StatItem title="Height" value={pokemon.height} />
           <StatItem title="Weight" value={pokemon.weight} />
           <StatItem title="Base experience" value={pokemon.base_experience} />
-          <StatItem title="Abilities" />
           <StatItem
             title="Habitat"
             value={specie.habitat && specie.habitat.name}
           />
           <StatItem title="Shape" value={specie.shape && specie.shape.name} />
+          <StatItem title="Abilities" />
           {pokemon.abilities &&
             pokemon.abilities.map(({ ability }) => (
               <StatItem key={ability.name} value={ability.name} />
